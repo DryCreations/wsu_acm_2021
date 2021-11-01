@@ -12,14 +12,8 @@ public class Driver {
 
         Stream.generate(in::nextLine)
         .limit(n - 1)
-        .map(p -> String.join("", p.split(" ")).toLowerCase())
-        .forEachOrdered(p -> {
-            if (p.contains(s)) {
-                System.out.println("eek");
-            } else {
-                System.out.println("meh");
-            }
-        });
+        .map(p -> String.join("", p.split(" ")).toLowerCase().contains(s) ? "eek" : "meh")
+        .forEachOrdered(System.out::println);
 
         in.close();
     }
