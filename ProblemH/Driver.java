@@ -16,7 +16,7 @@ public class Driver {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        int n = in.nextInt();
+        in.nextInt();
         int c = in.nextInt();
 
         in.nextLine();
