@@ -17,5 +17,7 @@ public class Driver {
         .reduce(0d, (a, b) -> a + b);
 
         System.out.printf("%.2f", e);
+
+        in.close();
     }    
 }

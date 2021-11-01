@@ -15,5 +15,6 @@ public class Driver {
 
         System.out.println(m[0]);
 
+        in.close();
     }
 }

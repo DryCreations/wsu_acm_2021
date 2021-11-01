@@ -22,5 +22,7 @@ public class Driver {
             });
 
         bag.stream().forEachOrdered(System.out::println);
+
+        in.close();
     }
 }

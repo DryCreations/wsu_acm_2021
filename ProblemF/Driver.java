@@ -26,5 +26,7 @@ public class Driver {
                     lastK.poll();
                 }
             });
+    
+        in.close();
     }
 }

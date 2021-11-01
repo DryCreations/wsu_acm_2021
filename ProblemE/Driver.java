@@ -17,6 +17,8 @@ public class Driver {
             .limit(n)
             .map(Driver::chainReaction)
             .forEachOrdered(System.out::println);
+
+        in.close();
     }
 
     public static Long chainReaction(String s) {

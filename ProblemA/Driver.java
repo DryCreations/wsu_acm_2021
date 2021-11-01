@@ -20,5 +20,7 @@ public class Driver {
                 System.out.println("meh");
             }
         });
+
+        in.close();
     }
 }

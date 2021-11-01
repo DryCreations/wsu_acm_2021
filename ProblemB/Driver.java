@@ -22,5 +22,7 @@ public class Driver {
             .orElseThrow(NoSuchElementException::new);
 
         System.out.println(test.getKey());
+
+        in.close();
     }    
 }
